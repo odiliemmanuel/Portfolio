@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ejeh Kaodilichi Emmanuel (Odili) — Software Engineer, Full-Stack Developer, Fintech & EdTech builder based in Lagos, Nigeria.">
+  <meta name="keywords" content="Software Engineer, Full-Stack Developer, Fintech, EdTech, Java, Spring Boot, Go, React, FastAPI">
+  <meta name="author" content="Ejeh Kaodilichi Emmanuel">
+  <meta property="og:title" content="Emmanuel (Odili) — Software Engineer">
+  <meta property="og:description" content="Full-Stack Developer building scalable fintech & edtech systems end-to-end.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://odilidev.vercel.app">
+  <title>Emmanuel (Odili) — Software Engineer & Full-Stack Developer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======= NAVIGATION ======= -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="nav-logo">Odili<span class="accent">.dev</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ======= HERO ======= -->
+    <section id="hero" class="hero section-pad">
+      <div class="hero-glow"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <p class="hero-greeting">👋 Hi there, I'm</p>
+          <h1 class="hero-name">Ejeh Kaodilichi<br>Emmanuel</h1>
+          <h2 class="hero-role"><span class="typing" id="typing"></span><span class="cursor">|</span></h2>
+          <p class="hero-tagline">
+            I build scalable systems end-to-end — backend, frontend, deployment, and the data that drives decisions. Passionate about <strong>fintech</strong>, <strong>edtech</strong>, and <strong>AI-powered</strong> products.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/odiliemmanuel" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.02 11.02 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.73.8 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.14c0 .3.21.66.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/kaodilichi-ejeh-66064238a" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            </a>
+            <a href="mailto:kaodilichiejeh02@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="avatar-frame">
+            <img src="https://avatars.githubusercontent.com/u/242292690?v=4" alt="Emmanuel (Odili)" class="avatar">
+            <div class="avatar-badge">
+              <span class="status-dot"></span> Available for work
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section id="about" class="about section-pad">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Building impactful software<span class="accent">.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a <strong>Software Engineer at <a href="https://semicolon.africa" target="_blank" rel="noopener">Semicolon Africa</a></strong> based in Lagos, Nigeria, where I lead the <strong>LearnQuest AI</strong> capstone team. I work across the full stack — from backend services and frontend interfaces to deployment pipelines and the data layer that informs product decisions.
+            </p>
+            <p>
+              I've led a few of my team members building <strong>EstateLink</strong>, a real-estate microservices platform, and I'm currently building an AI-powered learning platform, a real-time fintech transaction monitor, and a voice-first banking app for Nigerian users.
+            </p>
+            <p>
+              I'm passionate about building <strong>scalable, production-ready systems</strong> that look simple on the outside but are powerful under the hood.
+            </p>
+            <div class="about-facts">
+              <div class="fact">
+                <span class="fact-icon">📍</span>
+                <div><strong>Based in</strong><br>Lagos, Nigeria</div>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">🎯</span>
+                <div><strong>Focus</strong><br>Fintech & EdTech</div>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">🚀</span>
+                <div><strong>Currently</strong><br>LearnQuest AI Capstone</div>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">🧠</span>
+                <div><strong>Learning</strong><br>Data Science & Analytics</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-stack">
+            <h3 class="stack-title">Tech Stack</h3>
+            <div class="stack-group">
+              <h4 class="stack-cat">Languages</h4>
+              <div class="badges">
+                <span class="badge">Java</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">Go</span>
+                <span class="badge">Python</span>
+                <span class="badge">Dart</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4 class="stack-cat">Backend</h4>
+              <div class="badges">
+                <span class="badge">Spring Boot</span>
+                <span class="badge">Node.js / Express</span>
+                <span class="badge">FastAPI</span>
+                <span class="badge">Go / Gin</span>
+                <span class="badge">Apache Kafka</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4 class="stack-cat">Frontend & Mobile</h4>
+              <div class="badges">
+                <span class="badge">React</span>
+                <span class="badge">Next.js</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">Tailwind CSS</span>
+                <span class="badge">Flutter</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4 class="stack-cat">Data Science & Analytics</h4>
+              <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">DuckDB</span>
+                <span class="badge">Jupyter</span>
+                <span class="badge">MySQL</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4 class="stack-cat">DevOps & Cloud</h4>
+              <div class="badges">
+                <span class="badge">Docker</span>
+                <span class="badge">AWS</span>
+                <span class="badge">Git / GitHub</span>
+                <span class="badge">Vercel</span>
+                <span class="badge">Render</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4 class="stack-cat">Databases</h4>
+              <div class="badges">
+                <span class="badge">MongoDB</span>
+                <span class="badge">PostgreSQL</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">SQLite</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= PROJECTS ======= -->
+    <section id="projects" class="projects section-pad">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Featured Projects<span class="accent">.</span></h2>
+          <p class="section-sub">A selection of the systems I've designed, built, and deployed.</p>
+        </div>
+        <div class="filter-bar" id="filterBar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="fintech">Fintech</button>
+          <button class="filter-btn" data-filter="edtech">EdTech</button>
+          <button class="filter-btn" data-filter="ai">AI / ML</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+
+          <article class="project-card" data-category="edtech ai fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🎓</div>
+              <span class="project-status">Flagship</span>
+            </div>
+            <h3 class="project-title">LearnQuest AI</h3>
+            <p class="project-desc">AI-powered learning platform for Nigerian secondary school students with curated curricula, quiz engine, gamification (XP, badges, streaks), and Gemini-powered content generation.</p>
+            <div class="project-tags">
+              <span class="tag">Go / Gin</span>
+              <span class="tag">React</span>
+              <span class="tag">Gemini API</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel/LearnQuest" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🏠</div>
+              <span class="project-status">Team Lead</span>
+            </div>
+            <h3 class="project-title">EstateLink</h3>
+            <p class="project-desc">Real-estate microservices platform for listing, buying, and managing properties with agent assignment, offers, inspections, and real-time notifications. Led a few of my team members.</p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Kafka</span>
+              <span class="tag">Microservices</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel/Estate-Link" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="fintech fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">💳</div>
+              <span class="project-status">Deployed</span>
+            </div>
+            <h3 class="project-title">FeeBridge</h3>
+            <p class="project-desc">School fee management system with payment processing, event-driven architecture (Kafka), Spring Security + JWT auth, and email notifications. Deployed on Render.</p>
+            <div class="project-tags">
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Kafka</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">JWT</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel/Fee_Bridge" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="fintech fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🪙</div>
+              <span class="project-status">Hackathon</span>
+            </div>
+            <h3 class="project-title">MicroSave</h3>
+            <p class="project-desc">B2B2C micro-saving plug-in for banks (built for ALAT/Wema Bank) that automatically rounds down transactions and saves spare change, with WebSocket real-time updates and AI savings nudges.</p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">WebSocket</span>
+              <span class="tag">Render</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel/MicroSave" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ai fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🤖</div>
+              <span class="project-status">AI Agent</span>
+            </div>
+            <h3 class="project-title">DevSentinel</h3>
+            <p class="project-desc">Autonomous AI Incident Commander that listens for failing CI builds, reproduces bugs in an isolated sandbox, diagnoses root causes, applies fixes, and produces a transparent agent trace — part of Vetica.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel/Candidate-Sieve" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ai fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🕵️</div>
+              <span class="project-status">Agentic</span>
+            </div>
+            <h3 class="project-title">Vetica</h3>
+            <p class="project-desc">Multi-agent candidate vetting & incident repair platform. Hire accuracy from 40% → 100% with evidence-backed, traceable verdicts. Built for the micro1 Agentic Workflows Hackathon.</p>
+            <div class="project-tags">
+              <span class="tag">Multi-Agent</span>
+              <span class="tag">LLM</span>
+              <span class="tag">Sandbox</span>
+              <span class="tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel/Candidate-Sieve" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="edtech ai fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🛠️</div>
+              <span class="project-status">Full-Stack</span>
+            </div>
+            <h3 class="project-title">SkillBridgeAI</h3>
+            <p class="project-desc">Training-to-employment pipeline (powered by Wema Bank) with multi-role system (Student/Admin/Employer), AI career advisor, GitHub portfolio coach, skill assessment, and README generator.</p>
+            <div class="project-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Prisma</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="fintech mobile fullstack">
+            <div class="project-card-head">
+              <div class="project-icon">🎙️</div>
+              <span class="project-status">Frontier</span>
+            </div>
+            <h3 class="project-title">VoicePay / ALAT Voice</h3>
+            <p class="project-desc">Voice-first banking app for Nigerian users with support for native Nigerian languages (Yoruba, Igbo, Hausa, Pidgin). Flutter + FastAPI backend with NLU intent parsing and voice TTS/STT.</p>
+            <div class="project-tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Speech-to-Text</span>
+              <span class="tag">Native Languages</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/odiliemmanuel" target="_blank" rel="noopener" class="project-link">GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= SERVICES ======= -->
+    <section id="services" class="services section-pad">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">What I Do</span>
+          <h2 class="section-title">Services<span class="accent">.</span></h2>
+          <p class="section-sub">How I can help bring your product from idea to production.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">⚙️</div>
+            <h3>Backend Development</h3>
+            <p>Scalable REST APIs and microservices with Spring Boot, Go/Gin, FastAPI, and Node.js. Event-driven architectures with Kafka, secure auth with JWT.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>Frontend Development</h3>
+            <p>Modern, responsive user interfaces with React, Next.js, and TypeScript. Polished experiences with Tailwind CSS and Framer Motion.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>Mobile Development</h3>
+            <p>Cross-platform mobile apps with Flutter, including voice-first interfaces and native-language support for African markets.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🤖</div>
+            <h3>AI & Data Solutions</h3>
+            <p>AI-powered features (Gemini, OpenAI), data analysis with pandas & DuckDB, and ML workflows to turn data into decisions.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">☁️</div>
+            <h3>DevOps & Deployment</h3>
+            <p>Dockerized deployments, CI/CD pipelines, and cloud infrastructure on AWS, Vercel, and Render for production-ready apps.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💳</div>
+            <h3>Fintech Integrations</h3>
+            <p>Payment integrations with Paystack and Flutterwave, plus open-banking concepts, micro-saving, and real-time transaction monitoring.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= BLOG ======= -->
+    <section id="blog" class="blog section-pad">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Blog</span>
+          <h2 class="section-title">Insights & Write-ups<span class="accent">.</span></h2>
+          <p class="section-sub">Thoughts on engineering, architecture, and building for African markets.</p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-meta"><span class="blog-tag">Architecture</span><span class="blog-date">2026</span></div>
+            <h3 class="blog-title">Building LearnQuest AI: Gamification, AI Content, and Scale</h3>
+            <p class="blog-excerpt">How I architected an AI-powered learning platform with Gemini-generated content, a gamification engine, and a Go backend designed for scale.</p>
+            <a href="#" class="blog-link read-more" data-modal="blog1">Read More →</a>
+          </article>
+          <article class="blog-card">
+            <div class="blog-meta"><span class="blog-tag">Backend</span><span class="blog-date">2026</span></div>
+            <h3 class="blog-title">Event-Driven Architecture with Apache Kafka in Fintech</h3>
+            <p class="blog-excerpt">Why we chose Kafka for FeeBridge's payment pipeline — and the lessons learned building event-driven systems that need to be reliable and fast.</p>
+            <a href="#" class="blog-link read-more" data-modal="blog2">Read More →</a>
+          </article>
+          <article class="blog-card">
+            <div class="blog-meta"><span class="blog-tag">AI</span><span class="blog-date">2026</span></div>
+            <h3 class="blog-title">Real-Time Fintech Transaction Monitoring with FastAPI & WebSockets</h3>
+            <p class="blog-excerpt">A deep dive into building a real-time dashboard using WebSockets to monitor Paystack/Flutterwave transactions as they happen.</p>
+            <a href="#" class="blog-link read-more" data-modal="blog3">Read More →</a>
+          </article>
+          <article class="blog-card">
+            <div class="blog-meta"><span class="blog-tag">Mobile</span><span class="blog-date">2026</span></div>
+            <h3 class="blog-title">Voice-First Banking for Native Nigerian Languages</h3>
+            <p class="blog-excerpt">Designing a banking app that understands Yoruba, Igbo, Hausa, and Pidgin — the NLU intent parsing and voice tech behind VoicePay.</p>
+            <a href="#" class="blog-link read-more" data-modal="blog4">Read More →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= TESTIMONIALS ======= -->
+    <section id="testimonials" class="testimonials section-pad">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">What people say<span class="accent">.</span></h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-quote">"Emmanuel is an exceptional engineer and leader. He led some of our team on EstateLink with clarity and focus, delivering a complex microservices platform on time."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">FA</div>
+              <div>
+                <div class="author-name">Faculty Lead</div>
+                <div class="author-role">Semicolon Africa</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-quote">"As capstone team lead for LearnQuest AI, Emmanuel drove architecture decisions and kept the whole team aligned. His full-stack skills are impressive at this stage of his career."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">EB</div>
+              <div>
+                <div class="author-name">Team Member</div>
+                <div class="author-role">LearnQuest AI Team</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-quote">"MicroSave was a standout at the hackathon. Emmanuel's ability to turn a complex fintech concept into a working product with real-time features was remarkable."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">JH</div>
+              <div>
+                <div class="author-name">Hackathon Judge</div>
+                <div class="author-role">Hackaholics 7.0</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-quote">"Odili thinks about systems end-to-end — from the data layer to deployment. His dive into Agentic workflows with Vetica shows real forward-thinking engineering."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PS</div>
+              <div>
+                <div class="author-name">Peer Engineer</div>
+                <div class="author-role">Semicolon Africa</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CONTACT ======= -->
+    <section id="contact" class="contact section-pad">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's build something<span class="accent">.</span></h2>
+          <p class="section-sub">I'm open to opportunities, collaborations, and impactful projects. Let's talk.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="contact-intro">Have a project in mind, a role to fill, or just want to connect? I'd love to hear from you.</p>
+            <div class="contact-method">
+              <span class="contact-icon">📧</span>
+              <div><strong>Email</strong><br><a href="mailto:kaodilichiejeh02@gmail.com">kaodilichiejeh02@gmail.com</a></div>
+            </div>
+            <div class="contact-method">
+              <span class="contact-icon">📍</span>
+              <div><strong>Location</strong><br>Lagos, Nigeria</div>
+            </div>
+            <div class="contact-method">
+              <span class="contact-icon">🔗</span>
+              <div><strong>Online</strong><br>
+                <a href="https://github.com/odiliemmanuel" target="_blank" rel="noopener">GitHub</a> ·
+                <a href="https://www.linkedin.com/in/kaodilichi-ejeh-66064238a" target="_blank" rel="noopener">LinkedIn</a> ·
+                <a href="https://odilidev.vercel.app" target="_blank" rel="noopener">Portfolio</a>
+              </div>
+            </div>
+            <div class="contact-method">
+              <span class="contact-icon">📄</span>
+              <div><strong>Resume</strong><br><a href="#" class="resume-link">Download CV (coming soon)</a></div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+              <small class="form-error">Please enter your name</small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              <small class="form-error">Please enter a valid email</small>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+              <small class="form-error">Please enter a message</small>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-success" id="formSuccess" hidden>✓ Message sent! I'll get back to you soon.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Ejeh Kaodilichi Emmanuel (Odili). Built with ❤️ and a lot of ☕.</p>
+      <div class="footer-social">
+        <a href="https://github.com/odiliemmanuel" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/kaodilichi-ejeh-66064238a" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:kaodilichiejeh02@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======= BLOG MODALS ======= -->
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalBody"></p>
+    </div>
+  </div>
+
+  <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
