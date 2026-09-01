@@ -250,25 +250,6 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
   border: 4px solid var(--bg);
 }
-.avatar-badge {
-  position: absolute;
-  bottom: 10px; left: 50%;
-  transform: translateX(-50%);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  padding: 8px 16px;
-  border-radius: 30px;
-  font-size: 13px;
-  display: flex; align-items: center; gap: 8px;
-  white-space: nowrap;
-}
-.status-dot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  background: var(--green);
-  animation: pulse 1.6s infinite;
-}
-@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
 /* =========================================================
    ABOUT
