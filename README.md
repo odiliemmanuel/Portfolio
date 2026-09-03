@@ -2,7 +2,7 @@
 
 A minimalist, dark-themed portfolio website showcasing my software engineering projects, skills, and professional experience. Built with plain HTML, CSS, and JavaScript — no frameworks, no build tools.
 
-**Live:** [odilidev.vercel.app](https://odilidev.vercel.app)
+**Live:** [odiliejeh.vercel.app](https://odiliejeh.vercel.app)
 
 ---
 
